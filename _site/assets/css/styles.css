@@ -1,0 +1,39 @@
+body { /* Style all font awesome icons */ /* Add a hover effect if you want */ /* Set a specific color for each brand */ /* Facebook */ /* Extra small devices (phones, 600px and down) */ /* Small devices (portrait tablets and large phones, 600px and up) */ /* Medium devices (landscape tablets, 768px and up) */ /* Large devices (laptops/desktops, 992px and up) */ /* Extra large devices (large laptops and desktops, 1200px and up) */ background-color: wheat; font-family: 'Trebuchet MS', sans-serif; }
+
+body .container { margin-bottom: 30px; }
+
+body .current { color: white; font-weight: bolder; background-color: orangered; }
+
+body .sidenav { height: 100%; width: 0; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden; transition: 0.5s; padding-top: 60px; }
+
+body .sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: whitesmoke; display: block; transition: 0.3s; }
+
+body .sidenav a:hover { color: white; font-weight: bolder; background-color: orangered; border-style: dotted; border-color: white; }
+
+body .sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
+
+body #main { transition: margin-left .5s; padding: 16px; }
+
+@media screen and (max-height: 450px) { body .sidenav { padding-top: 15px; } body .sidenav a { font-size: 18px; } }
+
+body .fa { padding: 20px; font-size: 30px; width: 70px; border-radius: 80px; text-align: center; text-decoration: none; margin: 5px 25px; }
+
+body .fa:hover { opacity: 0.5; }
+
+body .fa-kaggle { background: #429bf4; color: white; font-family: roboto; font-size: 30px; }
+
+body .fa-twitter { background: #55ACEE; color: white; }
+
+body .fa-linkedin { background: #007bb5; color: white; }
+
+body .fa-github { background: black; color: white; }
+
+body .fa-google { background: #dd4b39; color: white; }
+
+body table, body th, body td { border: 1px solid black; border-radius: 30px; text-align: center; padding: 20px; }
+
+@media only screen and (max-width: 600px) { body .container { margin-top: 20px; } body .img-responsive { width: 15%; padding: auto; border-radius: 30%; } body .intro-text { text-align: center; padding: 10px; } }
+
+@media only screen and (min-width: 768px) { body .container { margin-top: 20px; } body .img-responsive { width: 20%; padding: auto; border-radius: 50%; } body .intro-text { text-align: center; padding: 10px; } }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,8 @@
+I"h<p>SENTIMENT ANALYSIS OF CODE-MIXED LANGUAGES, Team Leader, Jan. 2021</p>
+
+<p>B. Tech Final Year Project. A Machine Learning model to predict the sentiment (positive, neutral, negative) of code mixed (Hindi-English) texts. 
+Used CNN, LSTM and BI-LSTM models to predict the input texts. Got 65% accuracy on test data using CNN model. Other models gave 54% and 58% respectively.
+Google Co-Lab is used for training and development of models.
+Deployment is done using python based library called Anvil.
+Applications of this model are to filter offensive posts, comments and other text based content in social media.</p>
+:ET

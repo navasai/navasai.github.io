@@ -1,0 +1,7 @@
+I"r<p>Face Mask Detection in Real Time by Using Open CV and CNN</p>
+
+<p>Total of 1376 images having two classified images i.e. with mask and without mask is trained using Open CV and Harr Cascade along with deep learning - CNN model.
+Achieved 95% of accuracy on testing dataset. 
+Model helps to identify the persons without mask and helps to stop the spread of virus.</p>
+
+:ET

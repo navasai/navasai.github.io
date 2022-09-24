@@ -1,0 +1,11 @@
+<div class="container">
+  <div id="main">
+    <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+    {% endfor %}
+  </div>
+</div>
